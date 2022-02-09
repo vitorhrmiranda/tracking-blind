@@ -1,0 +1,23 @@
+linters-settings:
+  goimports:
+    local-prefixes: tracking-blind
+
+linters:
+  enable:
+    - goimports
+    - godot
+    - goconst
+    - bodyclose
+    - gochecknoglobals
+    - gofmt
+    - gofumpt
+    - govet
+    - stylecheck
+    - unconvert
+    - unparam
+    - misspell
+    - whitespace
+    - bodyclose
+    - gocritic
+    - testpackage
+    - gosec
